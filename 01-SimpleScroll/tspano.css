@@ -1,0 +1,17 @@
+.ts-bg-container {
+	width: 400px;
+	height: 400px;
+}
+
+.ts-pano-area {
+	height: 100%;
+	width: 100%;
+
+	background: #cccccc url("test.jpg") repeat-x;
+    background-position: 0 0; 
+    background-size: auto 400px; 
+	
+    cursor: move; /* ie11 */
+    cursor: grab; /* frefox */
+    cursor: -webkit-grab; /* chrome */
+}

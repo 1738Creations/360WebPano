@@ -1,0 +1,36 @@
+.ts-bg-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow: auto;
+}
+
+.ts-pano-area {
+	height: 100%;
+	width: 100%;
+
+	background: #cccccc url("test.jpg") repeat-x;
+    background-position: 0 0; 
+    background-size: auto 100%; 
+	
+    cursor: move; /* ie11 */
+    cursor: grab; /* frefox */
+    cursor: -webkit-grab; /* chrome */
+}
+
+.ts-manual-arrows {
+	cursor: auto;
+	position: absolute;
+    top: 50%;
+    margin-top: -30px;
+}
+
+.ts-arrow-l {
+	left: 0px;
+}
+
+.ts-arrow-r {
+	right: 0px;
+}

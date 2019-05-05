@@ -1,0 +1,30 @@
+.bg-test-container {
+	width: 400px;
+	height: 400px;
+}
+
+.bg-test {
+	height: 100%;
+	width: 100%;
+
+	background: #cccccc url("test.jpg") repeat-x;
+    background-position: 0 0; 
+    background-size: auto 400px; 
+	
+    cursor: move; /* ie11 */
+    cursor: grab; /* frefox */
+    cursor: -webkit-grab; /* chrome */
+}
+
+.bg-testt {
+	height: 100%;
+	width: 100%;
+
+	background: url("test2.jpg") repeat-x;
+    background-position: 0 0; 
+    background-size: auto 400px; 
+	
+    cursor: move; /* ie11 */
+    cursor: grab; /* frefox */
+    cursor: -webkit-grab; /* chrome */
+}
